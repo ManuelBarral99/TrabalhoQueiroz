@@ -1,0 +1,57 @@
+/*SLIDESHOW*/
+
+
+
+.mySlides {display: none}
+img {vertical-align: middle;display: block;}
+
+
+/* Slideshow container */
+
+
+.slideshow-container {
+  width: 55%;
+	
+  position: relative;
+  top:100%;
+  left:50%;
+  transform: translate(-50%, -50%);
+
+}
+
+/* Next & previous buttons */
+.prev, .next {
+  cursor: pointer;
+  position: absolute;
+  margin-top: -50%;
+  margin-left: -60%;
+  margin-right:-10%;
+  width: auto;
+  padding: 0px;
+  color: white;
+  font-size: 250%;
+
+
+  border-radius: 0 0px 0px 0;
+  user-select: none;
+}
+
+/* Position the "next button" to the right */
+.next {
+  right: 0;
+  border-radius: 3px 0 0 3px;
+}
+
+/* On hover, add a black background color with a little bit see-through */
+.prev:hover, .next:hover {
+  background-color: none;
+}
+
+
+  to {opacity: 1}
+}
+
+/* On smaller screens, decrease text size */
+@media only screen and (max-width: 300px) {
+  .prev, .next,.text {font-size: 11px}
+}
